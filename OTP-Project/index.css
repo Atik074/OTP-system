@@ -1,0 +1,23 @@
+body{
+    background-color:black;
+    color: white;
+}
+
+.otp-box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-box-list{
+    display: flex;
+}
+.otp-box-list .otp-box{
+    width: 30px;
+    text-align: center;
+    margin-right: 9px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px teal;
+}
